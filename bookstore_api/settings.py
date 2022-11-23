@@ -56,9 +56,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'bookstore_api.urls'
-CORS_ALLOWED_ALL_ORIGINS = True
+# CORS_ALLOWED_ALL_ORIGINS = True
 # Access-Control-Allow-Origin : ['*']
-CORS_ORIGIN_ALLOW = True
+CORS_ORIGIN_ALLOW_ALL = True
 
 TEMPLATES = [
     {
@@ -120,14 +120,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-CORS_ALLOW_METHODS = [
-    "DELETE",
-    "GET",
-    "OPTIONS",
-    "PATCH",
-    "POST",
-    "PUT",
-]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
