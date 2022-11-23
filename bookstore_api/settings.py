@@ -57,7 +57,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'bookstore_api.urls'
 CORS_ALLOWED_ALL_ORIGINS = True
-Access-Control-Allow-Origin : *
+Access-Control-Allow-Origin : '*'
+CORS_ORIGIN_ALLOW = True
 
 TEMPLATES = [
     {
